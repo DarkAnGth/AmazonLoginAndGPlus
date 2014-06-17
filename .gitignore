@@ -6,3 +6,35 @@
 #
 # Pods/
 
+#ignore build directory
+build/*
+
+#ignore temps
+*~.nib
+*.swp
+
+#ignore XCode user specific
+xcuserdata/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+profile
+*.moved-aside
+
+#ignore OS X folder attributes file
+*.DS_Store
+
+#ignore temp files created by localize script
+*.old
+
+#ignore generated Doxygen docs
+DoxygenDocs/*
+
+*.xccheckout
+

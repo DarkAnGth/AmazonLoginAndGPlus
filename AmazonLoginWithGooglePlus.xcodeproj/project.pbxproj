@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		582B964519507E3F008374DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 582B964419507E3F008374DC /* Foundation.framework */; };
+		582B964719507E3F008374DC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 582B964619507E3F008374DC /* CoreGraphics.framework */; };
+		582B964919507E3F008374DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 582B964819507E3F008374DC /* UIKit.framework */; };
+		582B964F19507E3F008374DC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 582B964D19507E3F008374DC /* InfoPlist.strings */; };
+		582B965119507E3F008374DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 582B965019507E3F008374DC /* main.m */; };
+		582B965519507E3F008374DC /* AGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 582B965419507E3F008374DC /* AGAppDelegate.m */; };
+		582B965819507E3F008374DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 582B965619507E3F008374DC /* Main.storyboard */; };
+		582B965B19507E3F008374DC /* AGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 582B965A19507E3F008374DC /* AGViewController.m */; };
+		582B965D19507E3F008374DC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 582B965C19507E3F008374DC /* Images.xcassets */; };
+		582B966419507E3F008374DC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 582B966319507E3F008374DC /* XCTest.framework */; };
+		582B966519507E3F008374DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 582B964419507E3F008374DC /* Foundation.framework */; };
+		582B966619507E3F008374DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 582B964819507E3F008374DC /* UIKit.framework */; };
+		582B966E19507E3F008374DC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 582B966C19507E3F008374DC /* InfoPlist.strings */; };
+		582B967019507E3F008374DC /* AmazonLoginWithGooglePlusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 582B966F19507E3F008374DC /* AmazonLoginWithGooglePlusTests.m */; };
+		582B967B19507E9D008374DC /* GooglePlus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 582B967919507E9D008374DC /* GooglePlus.framework */; };
+		582B967C19507E9D008374DC /* LoginWithAmazon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 582B967A19507E9D008374DC /* LoginWithAmazon.framework */; };
+		582B96951950819C008374DC /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 582B96941950819C008374DC /* CoreMotion.framework */; };
+		582B96971950833F008374DC /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 582B96961950833F008374DC /* AddressBook.framework */; };
+		582B969919508346008374DC /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 582B969819508346008374DC /* AssetsLibrary.framework */; };
+		582B969B19508352008374DC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 582B969A19508352008374DC /* CoreLocation.framework */; };
+		582B969D19508361008374DC /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 582B969C19508361008374DC /* CoreText.framework */; };
+		582B969F19508369008374DC /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 582B969E19508369008374DC /* MediaPlayer.framework */; };
+		582B96A119508370008374DC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 582B96A019508370008374DC /* Security.framework */; };
+		582B96A319508379008374DC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 582B96A219508379008374DC /* SystemConfiguration.framework */; };
+		582B96A519508452008374DC /* GoogleOpenSource in Frameworks */ = {isa = PBXBuildFile; fileRef = 582B96A419508452008374DC /* GoogleOpenSource */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		582B966719507E3F008374DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 582B963919507E3F008374DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 582B964019507E3F008374DC;
+			remoteInfo = AmazonLoginWithGooglePlus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		582B964119507E3F008374DC /* AmazonLoginWithGooglePlus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmazonLoginWithGooglePlus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		582B964419507E3F008374DC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		582B964619507E3F008374DC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		582B964819507E3F008374DC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		582B964C19507E3F008374DC /* AmazonLoginWithGooglePlus-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AmazonLoginWithGooglePlus-Info.plist"; sourceTree = "<group>"; };
+		582B964E19507E3F008374DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		582B965019507E3F008374DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		582B965219507E3F008374DC /* AmazonLoginWithGooglePlus-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AmazonLoginWithGooglePlus-Prefix.pch"; sourceTree = "<group>"; };
+		582B965319507E3F008374DC /* AGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AGAppDelegate.h; sourceTree = "<group>"; };
+		582B965419507E3F008374DC /* AGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AGAppDelegate.m; sourceTree = "<group>"; };
+		582B965719507E3F008374DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		582B965919507E3F008374DC /* AGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AGViewController.h; sourceTree = "<group>"; };
+		582B965A19507E3F008374DC /* AGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AGViewController.m; sourceTree = "<group>"; };
+		582B965C19507E3F008374DC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		582B966219507E3F008374DC /* AmazonLoginWithGooglePlusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmazonLoginWithGooglePlusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		582B966319507E3F008374DC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		582B966B19507E3F008374DC /* AmazonLoginWithGooglePlusTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AmazonLoginWithGooglePlusTests-Info.plist"; sourceTree = "<group>"; };
+		582B966D19507E3F008374DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		582B966F19507E3F008374DC /* AmazonLoginWithGooglePlusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AmazonLoginWithGooglePlusTests.m; sourceTree = "<group>"; };
+		582B967919507E9D008374DC /* GooglePlus.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlus.framework; path = AmazonLoginWithGooglePlus/Frameworks/GooglePlus.framework; sourceTree = "<group>"; };
+		582B967A19507E9D008374DC /* LoginWithAmazon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LoginWithAmazon.framework; path = AmazonLoginWithGooglePlus/Frameworks/LoginWithAmazon.framework; sourceTree = "<group>"; };
+		582B96941950819C008374DC /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		582B96961950833F008374DC /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		582B969819508346008374DC /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		582B969A19508352008374DC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		582B969C19508361008374DC /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		582B969E19508369008374DC /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		582B96A019508370008374DC /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		582B96A219508379008374DC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		582B96A419508452008374DC /* GoogleOpenSource */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = GoogleOpenSource; path = AmazonLoginWithGooglePlus/Frameworks/GoogleOpenSource.framework/GoogleOpenSource; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		582B963E19507E3F008374DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				582B96A319508379008374DC /* SystemConfiguration.framework in Frameworks */,
+				582B96A119508370008374DC /* Security.framework in Frameworks */,
+				582B969F19508369008374DC /* MediaPlayer.framework in Frameworks */,
+				582B969D19508361008374DC /* CoreText.framework in Frameworks */,
+				582B969B19508352008374DC /* CoreLocation.framework in Frameworks */,
+				582B969919508346008374DC /* AssetsLibrary.framework in Frameworks */,
+				582B96971950833F008374DC /* AddressBook.framework in Frameworks */,
+				582B96951950819C008374DC /* CoreMotion.framework in Frameworks */,
+				582B964719507E3F008374DC /* CoreGraphics.framework in Frameworks */,
+				582B967B19507E9D008374DC /* GooglePlus.framework in Frameworks */,
+				582B96A519508452008374DC /* GoogleOpenSource in Frameworks */,
+				582B964919507E3F008374DC /* UIKit.framework in Frameworks */,
+				582B964519507E3F008374DC /* Foundation.framework in Frameworks */,
+				582B967C19507E9D008374DC /* LoginWithAmazon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		582B965F19507E3F008374DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				582B966419507E3F008374DC /* XCTest.framework in Frameworks */,
+				582B966619507E3F008374DC /* UIKit.framework in Frameworks */,
+				582B966519507E3F008374DC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		582B963819507E3F008374DC = {
+			isa = PBXGroup;
+			children = (
+				582B964A19507E3F008374DC /* AmazonLoginWithGooglePlus */,
+				582B966919507E3F008374DC /* AmazonLoginWithGooglePlusTests */,
+				582B964319507E3F008374DC /* Frameworks */,
+				582B964219507E3F008374DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		582B964219507E3F008374DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				582B964119507E3F008374DC /* AmazonLoginWithGooglePlus.app */,
+				582B966219507E3F008374DC /* AmazonLoginWithGooglePlusTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		582B964319507E3F008374DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				582B96A419508452008374DC /* GoogleOpenSource */,
+				582B96A219508379008374DC /* SystemConfiguration.framework */,
+				582B96A019508370008374DC /* Security.framework */,
+				582B969E19508369008374DC /* MediaPlayer.framework */,
+				582B969C19508361008374DC /* CoreText.framework */,
+				582B969A19508352008374DC /* CoreLocation.framework */,
+				582B969819508346008374DC /* AssetsLibrary.framework */,
+				582B96961950833F008374DC /* AddressBook.framework */,
+				582B96941950819C008374DC /* CoreMotion.framework */,
+				582B967919507E9D008374DC /* GooglePlus.framework */,
+				582B967A19507E9D008374DC /* LoginWithAmazon.framework */,
+				582B964419507E3F008374DC /* Foundation.framework */,
+				582B964619507E3F008374DC /* CoreGraphics.framework */,
+				582B964819507E3F008374DC /* UIKit.framework */,
+				582B966319507E3F008374DC /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		582B964A19507E3F008374DC /* AmazonLoginWithGooglePlus */ = {
+			isa = PBXGroup;
+			children = (
+				582B965319507E3F008374DC /* AGAppDelegate.h */,
+				582B965419507E3F008374DC /* AGAppDelegate.m */,
+				582B965619507E3F008374DC /* Main.storyboard */,
+				582B965919507E3F008374DC /* AGViewController.h */,
+				582B965A19507E3F008374DC /* AGViewController.m */,
+				582B965C19507E3F008374DC /* Images.xcassets */,
+				582B964B19507E3F008374DC /* Supporting Files */,
+			);
+			path = AmazonLoginWithGooglePlus;
+			sourceTree = "<group>";
+		};
+		582B964B19507E3F008374DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				582B964C19507E3F008374DC /* AmazonLoginWithGooglePlus-Info.plist */,
+				582B964D19507E3F008374DC /* InfoPlist.strings */,
+				582B965019507E3F008374DC /* main.m */,
+				582B965219507E3F008374DC /* AmazonLoginWithGooglePlus-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		582B966919507E3F008374DC /* AmazonLoginWithGooglePlusTests */ = {
+			isa = PBXGroup;
+			children = (
+				582B966F19507E3F008374DC /* AmazonLoginWithGooglePlusTests.m */,
+				582B966A19507E3F008374DC /* Supporting Files */,
+			);
+			path = AmazonLoginWithGooglePlusTests;
+			sourceTree = "<group>";
+		};
+		582B966A19507E3F008374DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				582B966B19507E3F008374DC /* AmazonLoginWithGooglePlusTests-Info.plist */,
+				582B966C19507E3F008374DC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		582B964019507E3F008374DC /* AmazonLoginWithGooglePlus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 582B967319507E3F008374DC /* Build configuration list for PBXNativeTarget "AmazonLoginWithGooglePlus" */;
+			buildPhases = (
+				582B963D19507E3F008374DC /* Sources */,
+				582B963E19507E3F008374DC /* Frameworks */,
+				582B963F19507E3F008374DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AmazonLoginWithGooglePlus;
+			productName = AmazonLoginWithGooglePlus;
+			productReference = 582B964119507E3F008374DC /* AmazonLoginWithGooglePlus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		582B966119507E3F008374DC /* AmazonLoginWithGooglePlusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 582B967619507E3F008374DC /* Build configuration list for PBXNativeTarget "AmazonLoginWithGooglePlusTests" */;
+			buildPhases = (
+				582B965E19507E3F008374DC /* Sources */,
+				582B965F19507E3F008374DC /* Frameworks */,
+				582B966019507E3F008374DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				582B966819507E3F008374DC /* PBXTargetDependency */,
+			);
+			name = AmazonLoginWithGooglePlusTests;
+			productName = AmazonLoginWithGooglePlusTests;
+			productReference = 582B966219507E3F008374DC /* AmazonLoginWithGooglePlusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		582B963919507E3F008374DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AG;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = test;
+				TargetAttributes = {
+					582B966119507E3F008374DC = {
+						TestTargetID = 582B964019507E3F008374DC;
+					};
+				};
+			};
+			buildConfigurationList = 582B963C19507E3F008374DC /* Build configuration list for PBXProject "AmazonLoginWithGooglePlus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 582B963819507E3F008374DC;
+			productRefGroup = 582B964219507E3F008374DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				582B964019507E3F008374DC /* AmazonLoginWithGooglePlus */,
+				582B966119507E3F008374DC /* AmazonLoginWithGooglePlusTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		582B963F19507E3F008374DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				582B965D19507E3F008374DC /* Images.xcassets in Resources */,
+				582B964F19507E3F008374DC /* InfoPlist.strings in Resources */,
+				582B965819507E3F008374DC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		582B966019507E3F008374DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				582B966E19507E3F008374DC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		582B963D19507E3F008374DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				582B965519507E3F008374DC /* AGAppDelegate.m in Sources */,
+				582B965B19507E3F008374DC /* AGViewController.m in Sources */,
+				582B965119507E3F008374DC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		582B965E19507E3F008374DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				582B967019507E3F008374DC /* AmazonLoginWithGooglePlusTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		582B966819507E3F008374DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 582B964019507E3F008374DC /* AmazonLoginWithGooglePlus */;
+			targetProxy = 582B966719507E3F008374DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		582B964D19507E3F008374DC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				582B964E19507E3F008374DC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		582B965619507E3F008374DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				582B965719507E3F008374DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		582B966C19507E3F008374DC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				582B966D19507E3F008374DC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		582B967119507E3F008374DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		582B967219507E3F008374DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		582B967419507E3F008374DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AmazonLoginWithGooglePlus/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AmazonLoginWithGooglePlus/AmazonLoginWithGooglePlus-Prefix.pch";
+				INFOPLIST_FILE = "AmazonLoginWithGooglePlus/AmazonLoginWithGooglePlus-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AmazonLoginWithGooglePlus/Frameworks/GoogleOpenSource.framework",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		582B967519507E3F008374DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AmazonLoginWithGooglePlus/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AmazonLoginWithGooglePlus/AmazonLoginWithGooglePlus-Prefix.pch";
+				INFOPLIST_FILE = "AmazonLoginWithGooglePlus/AmazonLoginWithGooglePlus-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AmazonLoginWithGooglePlus/Frameworks/GoogleOpenSource.framework",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		582B967719507E3F008374DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AmazonLoginWithGooglePlus.app/AmazonLoginWithGooglePlus";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AmazonLoginWithGooglePlus/AmazonLoginWithGooglePlus-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AmazonLoginWithGooglePlusTests/AmazonLoginWithGooglePlusTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		582B967819507E3F008374DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AmazonLoginWithGooglePlus.app/AmazonLoginWithGooglePlus";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AmazonLoginWithGooglePlus/AmazonLoginWithGooglePlus-Prefix.pch";
+				INFOPLIST_FILE = "AmazonLoginWithGooglePlusTests/AmazonLoginWithGooglePlusTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		582B963C19507E3F008374DC /* Build configuration list for PBXProject "AmazonLoginWithGooglePlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				582B967119507E3F008374DC /* Debug */,
+				582B967219507E3F008374DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		582B967319507E3F008374DC /* Build configuration list for PBXNativeTarget "AmazonLoginWithGooglePlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				582B967419507E3F008374DC /* Debug */,
+				582B967519507E3F008374DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		582B967619507E3F008374DC /* Build configuration list for PBXNativeTarget "AmazonLoginWithGooglePlusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				582B967719507E3F008374DC /* Debug */,
+				582B967819507E3F008374DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 582B963919507E3F008374DC /* Project object */;
+}
